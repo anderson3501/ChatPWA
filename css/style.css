@@ -417,6 +417,19 @@ and (-webkit-device-pixel-ratio : 3) {
     margin-bottom: .2em;
     color: #95a5a6; 
 }
+
+.first {
+    display: flex;
+    align-items: center;
+    background-color: #3498db;
+    color: white;
+    width: 100%;
+    z-index: 1000;
+    
+    /* ESTO ES LO QUE SALVA EL NOTCH */
+    padding-top: env(safe-area-inset-top); 
+    height: calc(60px + env(safe-area-inset-top)); 
+}
   
   .retweet {
     position: absolute;

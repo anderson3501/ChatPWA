@@ -2,5 +2,9 @@
 "name": "Chat PWA",
 "short_name": "ChatPWA",
 "description": "Una aplicación de chat progresiva para héroes digitales.",
-"scope": "./"
+"start_url": "./index.html",
+"scope": "./",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#ffffff"
 }

@@ -1,0 +1,6 @@
+{
+"name": "Chat PWA",
+"short_name": "ChatPWA",
+"description": "Una aplicación de chat progresiva para héroes digitales.",
+"scope": "./"
+}
